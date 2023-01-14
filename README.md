@@ -134,7 +134,7 @@ _OMZ_APPLY_CHPWD_HOOK
     > `gd` = `git diff`  
     > `gs` = `git status`  
     > `gp` = `git push`
-    > `gap` = 'git add all 并 commit -m '内容' && git push`
+    > `gap` = `git add all 并 commit -m '内容' && git push`
     > `gss` = `更简洁的 git status`  
     > `gam` = `git add all 并 git commit -m '内容'`, e.g. `git commit update readme`  
     > `gll` = `简洁打印 git log`, 默认展示10条 若想展示更多 `gll 100`  
