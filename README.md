@@ -31,7 +31,7 @@ fork自 oh my zsh，更纯净 更快速
 
 ```shell
   # 找一个地方clone本仓库 例如 ~/.config
-  git clone https://github.com/yaocccc/omz
+  git clone https://github.com/hntoitx/omz
 
   # 在你的zsh配置里 source ~/.config/omz/omz.zsh (举例)
   echo "source ~/.config/omz/omz.zsh" >> $ZSH/init.zsh
@@ -133,6 +133,8 @@ _OMZ_APPLY_CHPWD_HOOK
     > `gpl` = `git pull origin <当前分支>`  
     > `gd` = `git diff`  
     > `gs` = `git status`  
+    > `gp` = `git push`
+    > `gap` = 'git add all 并 commit -m '内容' && git push`
     > `gss` = `更简洁的 git status`  
     > `gam` = `git add all 并 git commit -m '内容'`, e.g. `git commit update readme`  
     > `gll` = `简洁打印 git log`, 默认展示10条 若想展示更多 `gll 100`  
