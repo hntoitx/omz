@@ -17,6 +17,7 @@ alias gpt='git push origin --tags'
 alias glt='git tag -n --sort=taggerdate | tail -n ${1-10}'
 gat() { git tag -a $1 -m "$2" }
 gam() { git add --all && git commit -m "$*" }
+gap() { git add --all && git commit -m "$*" && git push }
 gitlog() {
     git --no-pager log --date=format:'%Y-%m-%d %H:%M'  --pretty=format:$1 --graph -n ${2-10} \
 }

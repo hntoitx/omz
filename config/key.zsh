@@ -1,1 +1,1 @@
-alias s='du -lh --max-depth=1'
+alias s='du -h -d 1'
