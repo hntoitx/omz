@@ -3,4 +3,5 @@ source $OMZ/config/omz.zsh
 source $OMZ/config/git.zsh
 source $OMZ/config/fzf.zsh
 source $OMZ/config/hook.zsh
+source $OMZ/config/key.zsh
 source $OMZ/themes/simple.zsh-theme

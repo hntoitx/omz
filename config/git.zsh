@@ -6,6 +6,7 @@ contentColor=${gitContentColor:-"cyan"}
 dateColor=${gitDateColor:-"yellow"}
 authorColor=${gitAuthorColor:-"blue"}
 
+alias gp='git push'
 alias gco='git checkout'
 alias gpo='git push origin $(git symbolic-ref --short -q HEAD)'
 alias gpl='git pull origin $(git symbolic-ref --short -q HEAD) --ff-only'
