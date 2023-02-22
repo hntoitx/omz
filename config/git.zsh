@@ -15,6 +15,7 @@ alias gs='git --no-pager status'
 alias gss='git --no-pager status -s'
 alias gpt='git push origin --tags'
 alias glt='git tag -n --sort=taggerdate | tail -n ${1-10}'
+alias grclean="echo '清空工作区'&& git reset --hard HEAD && git clean -fd"
 gat() { git tag -a $1 -m "$2" }
 #gam() { git add --all && git commit -m "$*" }
 gap() { git pull && git add --all && git commit -m "$*" && git push }
